@@ -14,6 +14,7 @@
 		0BCF99861BC62378005E0A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF99841BC62378005E0A1A /* LaunchScreen.storyboard */; };
 		0BCF99911BC62378005E0A1A /* codepath_week_04_tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF99901BC62378005E0A1A /* codepath_week_04_tumblrTests.swift */; };
 		0BCF999C1BC62378005E0A1A /* codepath_week_04_tumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF999B1BC62378005E0A1A /* codepath_week_04_tumblrUITests.swift */; };
+		0BCF99AA1BC631CE005E0A1A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF99A91BC631CE005E0A1A /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0BCF99971BC62378005E0A1A /* codepath-week-04-tumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-week-04-tumblrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCF999B1BC62378005E0A1A /* codepath_week_04_tumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_week_04_tumblrUITests.swift; sourceTree = "<group>"; };
 		0BCF999D1BC62378005E0A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCF99A91BC631CE005E0A1A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0BCF996F1BC62377005E0A1A = {
 			isa = PBXGroup;
 			children = (
+				0BCF99A91BC631CE005E0A1A /* Common.swift */,
 				0BCF997A1BC62377005E0A1A /* codepath-week-04-tumblr */,
 				0BCF998F1BC62378005E0A1A /* codepath-week-04-tumblrTests */,
 				0BCF999A1BC62378005E0A1A /* codepath-week-04-tumblrUITests */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BCF997E1BC62378005E0A1A /* ViewController.swift in Sources */,
+				0BCF99AA1BC631CE005E0A1A /* Common.swift in Sources */,
 				0BCF997C1BC62378005E0A1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
