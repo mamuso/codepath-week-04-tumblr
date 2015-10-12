@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B600D6C1BCB5324009080D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B600D6B1BCB5324009080D7 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0BCF997C1BC62378005E0A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF997B1BC62378005E0A1A /* AppDelegate.swift */; };
 		0BCF997E1BC62378005E0A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF997D1BC62378005E0A1A /* ViewController.swift */; };
 		0BCF99811BC62378005E0A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF997F1BC62378005E0A1A /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B600D6B1BCB5324009080D7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0BCF99781BC62377005E0A1A /* codepath-week-04-tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-week-04-tumblr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCF997B1BC62378005E0A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BCF997D1BC62378005E0A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				0BCF997B1BC62378005E0A1A /* AppDelegate.swift */,
 				0BCF997D1BC62378005E0A1A /* ViewController.swift */,
 				0BCF997F1BC62378005E0A1A /* Main.storyboard */,
+				0B600D6B1BCB5324009080D7 /* HomeViewController.swift */,
 				0BCF99821BC62378005E0A1A /* Assets.xcassets */,
 				0BCF99841BC62378005E0A1A /* LaunchScreen.storyboard */,
 				0BCF99871BC62378005E0A1A /* Info.plist */,
@@ -264,6 +267,7 @@
 				0BCF997E1BC62378005E0A1A /* ViewController.swift in Sources */,
 				0BCF99AA1BC631CE005E0A1A /* Common.swift in Sources */,
 				0BCF997C1BC62378005E0A1A /* AppDelegate.swift in Sources */,
+				0B600D6C1BCB5324009080D7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				0BCF99A21BC62378005E0A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BCF99A31BC62378005E0A1A /* Build configuration list for PBXNativeTarget "codepath-week-04-tumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				0BCF99A51BC62378005E0A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BCF99A61BC62378005E0A1A /* Build configuration list for PBXNativeTarget "codepath-week-04-tumblrUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				0BCF99A81BC62378005E0A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
