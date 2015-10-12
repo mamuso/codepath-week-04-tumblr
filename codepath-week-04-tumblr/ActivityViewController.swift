@@ -1,5 +1,5 @@
 //
-//  AccountViewController.swift
+//  ActivityViewController.swift
 //  codepath-week-04-tumblr
 //
 //  Created by Manuel Muñoz Solera on 10/11/15.
@@ -8,17 +8,16 @@
 
 import UIKit
 
-class AccountViewController: ViewController {
+class ActivityViewController: ViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var accountImageView: UIImageView!
-    
+    @IBOutlet weak var contentView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Setting up the scroll.
-        scrollView.contentSize = accountImageView.frame.size
+        // Setting up the scroll size.
+        scrollView.contentSize = contentView.frame.size
     }
 
     override func didReceiveMemoryWarning() {

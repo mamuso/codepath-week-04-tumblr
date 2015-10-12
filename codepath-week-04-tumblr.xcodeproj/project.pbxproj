@@ -18,6 +18,7 @@
 		0BCF99AA1BC631CE005E0A1A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF99A91BC631CE005E0A1A /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		0BE7A9E91BCB8E53006AE5EF /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7A9E81BCB8E53006AE5EF /* DiscoverViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0BE7A9EB1BCB904F006AE5EF /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0BE7A9ED1BCB915C006AE5EF /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0BCF99A91BC631CE005E0A1A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		0BE7A9E81BCB8E53006AE5EF /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0BCF997D1BC62378005E0A1A /* ViewController.swift */,
 				0BCF997F1BC62378005E0A1A /* Main.storyboard */,
 				0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */,
+				0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */,
 				0BE7A9E81BCB8E53006AE5EF /* DiscoverViewController.swift */,
 				0B600D6B1BCB5324009080D7 /* HomeViewController.swift */,
 				0BCF99821BC62378005E0A1A /* Assets.xcassets */,
@@ -274,6 +277,7 @@
 				0BCF99AA1BC631CE005E0A1A /* Common.swift in Sources */,
 				0BE7A9EB1BCB904F006AE5EF /* AccountViewController.swift in Sources */,
 				0BCF997C1BC62378005E0A1A /* AppDelegate.swift in Sources */,
+				0BE7A9ED1BCB915C006AE5EF /* ActivityViewController.swift in Sources */,
 				0B600D6C1BCB5324009080D7 /* HomeViewController.swift in Sources */,
 				0BE7A9E91BCB8E53006AE5EF /* DiscoverViewController.swift in Sources */,
 			);
