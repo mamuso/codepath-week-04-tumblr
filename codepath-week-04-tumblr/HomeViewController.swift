@@ -28,19 +28,8 @@ class HomeViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Setting up the objects
-        houseImageView.transform = CGAffineTransformMakeScale(0.2, 0.2)
-        houseImageView.alpha = 0.0
-
-        spinnerImageView.transform = CGAffineTransformMakeScale(0.2, 0.2)
-        spinnerImageView.alpha = 0.0
-
         // Setting up the scroll
         scrollView.contentSize = contentView.frame.size
-        
-        // Triggering the house animation
-        houseAnimation()
-        
         
         // Setting up the different controllers
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -48,6 +37,25 @@ class HomeViewController: ViewController {
         loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
 
     }
+    
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated);
+        // Setting up the objects
+        houseImageView.transform = CGAffineTransformMakeScale(0.2, 0.2)
+        houseImageView.alpha = 0.0
+        
+        spinnerImageView.transform = CGAffineTransformMakeScale(0.2, 0.2)
+        spinnerImageView.alpha = 0.0
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated);
+        // Triggering the house animation
+        houseAnimation()
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -64,7 +72,6 @@ class HomeViewController: ViewController {
                 self.spinnerAnimation()
             }
         )
-        
     }
     
     // Spinner Animation

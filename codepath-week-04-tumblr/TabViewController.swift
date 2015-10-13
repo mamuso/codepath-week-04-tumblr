@@ -12,6 +12,7 @@ class TabViewController: UIViewController {
 
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var tooltipView: UIImageView!
     
     var homeViewController: UIViewController!
     var searchViewController: UIViewController!
@@ -21,7 +22,7 @@ class TabViewController: UIViewController {
 
     var viewControllers: [UIViewController]!
     var selectedIndex: Int = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,10 +37,12 @@ class TabViewController: UIViewController {
         
         viewControllers = [homeViewController, searchViewController, accountViewController, trendingViewController]
 
-        
         // Loading home
         homeViewController.view.frame = contentView.frame
         contentView.addSubview(homeViewController.view)
+        
+        // Animating the tooltip
+        tooltipAnimation()
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,6 +57,14 @@ class TabViewController: UIViewController {
         selectedIndex = sender.tag
         buttons[previousIndex].selected = false
         buttons[selectedIndex].selected = true
+        
+        // What's up, tooltip!
+        let alpha = CGFloat(selectedIndex == 1 ? 0.0 : 1.0)
+        
+        UIView.animateWithDuration(0.2, animations: { () -> Void in
+            self.tooltipView.alpha = alpha
+            }, completion: nil)
+        
         
         // loading the view
         let previousVC = viewControllers[previousIndex]
@@ -74,6 +85,15 @@ class TabViewController: UIViewController {
         vc.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
         presentViewController(vc, animated: true, completion: nil)
     }
+    
+    // Tooltip Animation
+    func tooltipAnimation() {
+        tooltipView.alpha = 1
+        UIView.animateWithDuration(0.8, delay: 0, options: [UIViewAnimationOptions.Repeat, UIViewAnimationOptions.Autoreverse, UIViewAnimationOptions.CurveEaseInOut], animations: { () -> Void in
+            self.tooltipView.transform = CGAffineTransformMakeTranslation(0, -3)
+            }, completion: nil)
+    }
+
 
     /*
     // MARK: - Navigation
