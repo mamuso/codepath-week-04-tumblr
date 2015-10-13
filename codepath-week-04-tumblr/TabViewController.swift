@@ -49,14 +49,23 @@ class TabViewController: UIViewController {
     
     
     @IBAction func didPressTab(sender: AnyObject) {
+        // selecting the tab
         let previousIndex = selectedIndex
         selectedIndex = sender.tag
-        
-        print(sender.tag)
-        
         buttons[previousIndex].selected = false
         buttons[selectedIndex].selected = true
-
+        
+        // loading the view
+        let previousVC = viewControllers[previousIndex]
+        previousVC.willMoveToParentViewController(nil)
+        previousVC.view.removeFromSuperview()
+        previousVC.removeFromParentViewController()
+        
+        let vc = viewControllers[selectedIndex]
+        addChildViewController(vc)
+        vc.view.frame = contentView.bounds
+        contentView.addSubview(vc.view)
+        vc.didMoveToParentViewController(self)
         
     }
     
