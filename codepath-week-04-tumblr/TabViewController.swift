@@ -30,9 +30,9 @@ class TabViewController: UIViewController {
         
         homeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController")
         searchViewController = storyboard.instantiateViewControllerWithIdentifier("DiscoverViewController")
-        composerViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController")
         accountViewController = storyboard.instantiateViewControllerWithIdentifier("AccountViewController")
         trendingViewController = storyboard.instantiateViewControllerWithIdentifier("ActivityViewController")
+        composerViewController = storyboard.instantiateViewControllerWithIdentifier("ComposeViewController")
         
         viewControllers = [homeViewController, searchViewController, accountViewController, trendingViewController]
 
@@ -69,6 +69,11 @@ class TabViewController: UIViewController {
         
     }
     
+    @IBAction func didPressCompose(sender: AnyObject) {
+        let vc = composerViewController
+        vc.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+        presentViewController(vc, animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

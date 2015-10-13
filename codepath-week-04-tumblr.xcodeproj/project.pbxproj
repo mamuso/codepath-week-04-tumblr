@@ -20,6 +20,7 @@
 		0BE7A9EB1BCB904F006AE5EF /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0BE7A9ED1BCB915C006AE5EF /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBACE1901BCCB557009D9474 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACE18F1BCCB557009D9474 /* TabViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBACE1921BCCC07B009D9474 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACE1911BCCC07B009D9474 /* ComposeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		BBACE18F1BCCB557009D9474 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		BBACE1911BCCC07B009D9474 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				0BCF997B1BC62378005E0A1A /* AppDelegate.swift */,
 				0BCF997D1BC62378005E0A1A /* ViewController.swift */,
 				0BCF997F1BC62378005E0A1A /* Main.storyboard */,
+				BBACE1911BCCC07B009D9474 /* ComposeViewController.swift */,
 				BBACE18F1BCCB557009D9474 /* TabViewController.swift */,
 				0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */,
 				0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBACE1921BCCC07B009D9474 /* ComposeViewController.swift in Sources */,
 				BBACE1901BCCB557009D9474 /* TabViewController.swift in Sources */,
 				0BCF997E1BC62378005E0A1A /* ViewController.swift in Sources */,
 				0BCF99AA1BC631CE005E0A1A /* Common.swift in Sources */,
