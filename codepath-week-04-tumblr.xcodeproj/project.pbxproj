@@ -21,6 +21,7 @@
 		0BE7A9ED1BCB915C006AE5EF /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBACE1901BCCB557009D9474 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACE18F1BCCB557009D9474 /* TabViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBACE1921BCCC07B009D9474 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACE1911BCCC07B009D9474 /* ComposeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBACE1941BCCDCAA009D9474 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACE1931BCCDCAA009D9474 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		0BE7A9EC1BCB915C006AE5EF /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		BBACE18F1BCCB557009D9474 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		BBACE1911BCCC07B009D9474 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		BBACE1931BCCDCAA009D9474 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				0BCF997B1BC62378005E0A1A /* AppDelegate.swift */,
 				0BCF997D1BC62378005E0A1A /* ViewController.swift */,
 				0BCF997F1BC62378005E0A1A /* Main.storyboard */,
+				BBACE1931BCCDCAA009D9474 /* LoginViewController.swift */,
 				BBACE1911BCCC07B009D9474 /* ComposeViewController.swift */,
 				BBACE18F1BCCB557009D9474 /* TabViewController.swift */,
 				0BE7A9EA1BCB904E006AE5EF /* AccountViewController.swift */,
@@ -287,6 +290,7 @@
 				0BCF997C1BC62378005E0A1A /* AppDelegate.swift in Sources */,
 				0BE7A9ED1BCB915C006AE5EF /* ActivityViewController.swift in Sources */,
 				0B600D6C1BCB5324009080D7 /* HomeViewController.swift in Sources */,
+				BBACE1941BCCDCAA009D9474 /* LoginViewController.swift in Sources */,
 				0BE7A9E91BCB8E53006AE5EF /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

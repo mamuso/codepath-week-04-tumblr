@@ -22,6 +22,9 @@ class HomeViewController: ViewController {
     let damping = CGFloat(0.55)
     let velocity = CGFloat(1.0)
 
+    
+    var loginViewController: UIViewController!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -37,6 +40,13 @@ class HomeViewController: ViewController {
         
         // Triggering the house animation
         houseAnimation()
+        
+        
+        // Setting up the different controllers
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -71,8 +81,15 @@ class HomeViewController: ViewController {
             self.spinnerImageView.transform = CGAffineTransformMakeRotation(angle)
             }, completion: nil
         )
-        
     }
+    
+    @IBAction func didPressLogIn(sender: AnyObject) {
+        let vc = loginViewController
+        vc.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+        presentViewController(vc, animated: true, completion: nil)
+
+    }
+    
     
 
     /*
